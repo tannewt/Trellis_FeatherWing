@@ -1,0 +1,431 @@
+EESchema Schematic File Version 4
+LIBS:Feather_Trellis-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L adafruit:FeatherBottom J2
+U 1 1 5AA3424F
+P 3250 4050
+F 0 "J2" H 3235 3478 60  0000 C CNN
+F 1 "FeatherBottom" H 3235 3372 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x16_Pitch2.54mm" H 3450 4050 60  0001 C CNN
+F 3 "" H 3450 4050 60  0001 C CNN
+	1    3250 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L adafruit:FeatherTop J1
+U 1 1 5AA34309
+P 3225 3200
+F 0 "J1" H 4033 3442 60  0000 L CNN
+F 1 "FeatherTop" H 4033 3336 60  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x12_Pitch2.54mm" H 3525 3200 60  0001 C CNN
+F 3 "" H 3525 3200 60  0001 C CNN
+	1    3225 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L adafruit:FeatherTop J3
+U 1 1 5AA343AB
+P 5550 3175
+F 0 "J3" H 6358 3417 60  0000 L CNN
+F 1 "FeatherTop" H 6358 3311 60  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x12_Pitch2.54mm" H 5850 3175 60  0001 C CNN
+F 3 "" H 5850 3175 60  0001 C CNN
+	1    5550 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L adafruit:FeatherBottom J4
+U 1 1 5AA3443D
+P 5625 4075
+F 0 "J4" H 5610 3503 60  0000 C CNN
+F 1 "FeatherBottom" H 5610 3397 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x16_Pitch2.54mm" H 5825 4075 60  0001 C CNN
+F 3 "" H 5825 4075 60  0001 C CNN
+	1    5625 4075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x05 J6
+U 1 1 5AA6F730
+P 8175 2600
+F 0 "J6" H 8255 2642 50  0000 L CNN
+F 1 "Conn_01x05" H 8255 2551 50  0000 L CNN
+F 2 "Adafruit:Trellis_Interconnect_Bottom_Right" H 8175 2600 50  0001 C CNN
+F 3 "~" H 8175 2600 50  0001 C CNN
+	1    8175 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x05 J7
+U 1 1 5AA6F783
+P 9225 2600
+F 0 "J7" H 9305 2642 50  0000 L CNN
+F 1 "Conn_01x05" H 9305 2551 50  0000 L CNN
+F 2 "Adafruit:Trellis Interconnect" H 9225 2600 50  0001 C CNN
+F 3 "~" H 9225 2600 50  0001 C CNN
+	1    9225 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x05 J5
+U 1 1 5AA6F7BB
+P 8150 3400
+F 0 "J5" H 8230 3442 50  0000 L CNN
+F 1 "Conn_01x05" H 8230 3351 50  0000 L CNN
+F 2 "Adafruit:Trellis Interconnect" H 8150 3400 50  0001 C CNN
+F 3 "~" H 8150 3400 50  0001 C CNN
+	1    8150 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x05 J8
+U 1 1 5AA6F803
+P 9250 3375
+F 0 "J8" H 9330 3417 50  0000 L CNN
+F 1 "Conn_01x05" H 9330 3326 50  0000 L CNN
+F 2 "Adafruit:Trellis_Interconnect_Bottom_Right" H 9250 3375 50  0001 C CNN
+F 3 "~" H 9250 3375 50  0001 C CNN
+	1    9250 3375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01 J9
+U 1 1 5AA6F8C0
+P 7875 4675
+F 0 "J9" H 7955 4717 50  0000 L CNN
+F 1 "Conn_01x01" H 7955 4626 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm" H 7875 4675 50  0001 C CNN
+F 3 "~" H 7875 4675 50  0001 C CNN
+	1    7875 4675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01 J10
+U 1 1 5AA6F91A
+P 7875 4925
+F 0 "J10" H 7955 4967 50  0000 L CNN
+F 1 "Conn_01x01" H 7955 4876 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm" H 7875 4925 50  0001 C CNN
+F 3 "~" H 7875 4925 50  0001 C CNN
+	1    7875 4925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01 J11
+U 1 1 5AA6F947
+P 7875 5150
+F 0 "J11" H 7955 5192 50  0000 L CNN
+F 1 "Conn_01x01" H 7955 5101 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm" H 7875 5150 50  0001 C CNN
+F 3 "~" H 7875 5150 50  0001 C CNN
+	1    7875 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01 J12
+U 1 1 5AA6F972
+P 7875 5350
+F 0 "J12" H 7955 5392 50  0000 L CNN
+F 1 "Conn_01x01" H 7955 5301 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm" H 7875 5350 50  0001 C CNN
+F 3 "~" H 7875 5350 50  0001 C CNN
+	1    7875 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01 J13
+U 1 1 5AA6FCD7
+P 9425 4650
+F 0 "J13" H 9505 4692 50  0000 L CNN
+F 1 "Conn_01x01" H 9505 4601 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm" H 9425 4650 50  0001 C CNN
+F 3 "~" H 9425 4650 50  0001 C CNN
+	1    9425 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01 J14
+U 1 1 5AA6FCDD
+P 9425 4900
+F 0 "J14" H 9505 4942 50  0000 L CNN
+F 1 "Conn_01x01" H 9505 4851 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm" H 9425 4900 50  0001 C CNN
+F 3 "~" H 9425 4900 50  0001 C CNN
+	1    9425 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01 J15
+U 1 1 5AA6FCE3
+P 9425 5125
+F 0 "J15" H 9505 5167 50  0000 L CNN
+F 1 "Conn_01x01" H 9505 5076 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm" H 9425 5125 50  0001 C CNN
+F 3 "~" H 9425 5125 50  0001 C CNN
+	1    9425 5125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01 J16
+U 1 1 5AA6FCE9
+P 9425 5325
+F 0 "J16" H 9505 5367 50  0000 L CNN
+F 1 "Conn_01x01" H 9505 5276 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm" H 9425 5325 50  0001 C CNN
+F 3 "~" H 9425 5325 50  0001 C CNN
+	1    9425 5325
+	1    0    0    -1  
+$EndComp
+Text Label 7975 2400 2    50   ~ 0
+SDA
+Text Label 9025 2400 2    50   ~ 0
+SDA
+Text Label 9050 3175 2    50   ~ 0
+SDA
+Text Label 7950 3200 2    50   ~ 0
+SDA
+Text Label 7975 2800 2    50   ~ 0
+INT
+Text Label 7950 3600 2    50   ~ 0
+INT
+Text Label 9050 3575 2    50   ~ 0
+INT
+Text Label 9025 2800 2    50   ~ 0
+INT
+Text Label 7975 2500 2    50   ~ 0
+SCL
+Text Label 9025 2500 2    50   ~ 0
+SCL
+Text Label 9050 3275 2    50   ~ 0
+SCL
+Text Label 7950 3300 2    50   ~ 0
+SCL
+$Comp
+L power:+5V #PWR0101
+U 1 1 5AA700AE
+P 7975 2700
+F 0 "#PWR0101" H 7975 2550 50  0001 C CNN
+F 1 "+5V" V 7990 2828 50  0000 L CNN
+F 2 "" H 7975 2700 50  0001 C CNN
+F 3 "" H 7975 2700 50  0001 C CNN
+	1    7975 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 5AA70110
+P 7950 3500
+F 0 "#PWR0102" H 7950 3350 50  0001 C CNN
+F 1 "+5V" V 7965 3628 50  0000 L CNN
+F 2 "" H 7950 3500 50  0001 C CNN
+F 3 "" H 7950 3500 50  0001 C CNN
+	1    7950 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0103
+U 1 1 5AA7013B
+P 9050 3475
+F 0 "#PWR0103" H 9050 3325 50  0001 C CNN
+F 1 "+5V" V 9065 3603 50  0000 L CNN
+F 2 "" H 9050 3475 50  0001 C CNN
+F 3 "" H 9050 3475 50  0001 C CNN
+	1    9050 3475
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0104
+U 1 1 5AA70166
+P 9025 2700
+F 0 "#PWR0104" H 9025 2550 50  0001 C CNN
+F 1 "+5V" V 9040 2828 50  0000 L CNN
+F 2 "" H 9025 2700 50  0001 C CNN
+F 3 "" H 9025 2700 50  0001 C CNN
+	1    9025 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5AA701BF
+P 7975 2600
+F 0 "#PWR0105" H 7975 2350 50  0001 C CNN
+F 1 "GND" V 7980 2472 50  0000 R CNN
+F 2 "" H 7975 2600 50  0001 C CNN
+F 3 "" H 7975 2600 50  0001 C CNN
+	1    7975 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5AA70201
+P 7950 3400
+F 0 "#PWR0106" H 7950 3150 50  0001 C CNN
+F 1 "GND" V 7955 3272 50  0000 R CNN
+F 2 "" H 7950 3400 50  0001 C CNN
+F 3 "" H 7950 3400 50  0001 C CNN
+	1    7950 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5AA7022C
+P 9050 3375
+F 0 "#PWR0107" H 9050 3125 50  0001 C CNN
+F 1 "GND" V 9055 3247 50  0000 R CNN
+F 2 "" H 9050 3375 50  0001 C CNN
+F 3 "" H 9050 3375 50  0001 C CNN
+	1    9050 3375
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5AA70257
+P 9025 2600
+F 0 "#PWR0108" H 9025 2350 50  0001 C CNN
+F 1 "GND" V 9030 2472 50  0000 R CNN
+F 2 "" H 9025 2600 50  0001 C CNN
+F 3 "" H 9025 2600 50  0001 C CNN
+	1    9025 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5AA70348
+P 2800 4050
+F 0 "#PWR0109" H 2800 3800 50  0001 C CNN
+F 1 "GND" H 2805 3877 50  0000 C CNN
+F 2 "" H 2800 4050 50  0001 C CNN
+F 3 "" H 2800 4050 50  0001 C CNN
+	1    2800 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5AA70383
+P 5175 4075
+F 0 "#PWR0110" H 5175 3825 50  0001 C CNN
+F 1 "GND" H 5180 3902 50  0000 C CNN
+F 2 "" H 5175 4075 50  0001 C CNN
+F 3 "" H 5175 4075 50  0001 C CNN
+	1    5175 4075
+	-1   0    0    1   
+$EndComp
+Text Label 6300 3175 3    50   ~ 0
+SDA
+Text Label 3975 3200 3    50   ~ 0
+SDA
+Text Label 3875 3200 3    50   ~ 0
+SCL
+Text Label 6200 3175 3    50   ~ 0
+SCL
+Text Label 5800 3175 3    50   ~ 0
+INT
+Text Label 3475 3200 3    50   ~ 0
+INT
+$Comp
+L power:+5V #PWR0111
+U 1 1 5AA70553
+P 5400 3175
+F 0 "#PWR0111" H 5400 3025 50  0001 C CNN
+F 1 "+5V" H 5415 3348 50  0000 C CNN
+F 2 "" H 5400 3175 50  0001 C CNN
+F 3 "" H 5400 3175 50  0001 C CNN
+	1    5400 3175
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR0112
+U 1 1 5AA705AE
+P 3075 3200
+F 0 "#PWR0112" H 3075 3050 50  0001 C CNN
+F 1 "+5V" H 3090 3373 50  0000 C CNN
+F 2 "" H 3075 3200 50  0001 C CNN
+F 3 "" H 3075 3200 50  0001 C CNN
+	1    3075 3200
+	-1   0    0    1   
+$EndComp
+Text Label 2875 3200 3    50   ~ 0
+BAT
+Text Label 5200 3175 3    50   ~ 0
+BAT
+$Comp
+L power:+3.3V #PWR0113
+U 1 1 5AA706A8
+P 4975 4075
+F 0 "#PWR0113" H 4975 3925 50  0001 C CNN
+F 1 "+3.3V" H 4990 4248 50  0000 C CNN
+F 2 "" H 4975 4075 50  0001 C CNN
+F 3 "" H 4975 4075 50  0001 C CNN
+	1    4975 4075
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0114
+U 1 1 5AA706DA
+P 2600 4050
+F 0 "#PWR0114" H 2600 3900 50  0001 C CNN
+F 1 "+3.3V" H 2615 4223 50  0000 C CNN
+F 2 "" H 2600 4050 50  0001 C CNN
+F 3 "" H 2600 4050 50  0001 C CNN
+	1    2600 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01 J20
+U 1 1 5AB0B85F
+P 5750 5650
+F 0 "J20" H 5830 5692 50  0000 L CNN
+F 1 "Conn_01x01" H 5830 5601 50  0000 L CNN
+F 2 "Adafruit:1mm_mount" H 5750 5650 50  0001 C CNN
+F 3 "~" H 5750 5650 50  0001 C CNN
+	1    5750 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01 J17
+U 1 1 5AB0B8DC
+P 5725 5875
+F 0 "J17" H 5805 5917 50  0000 L CNN
+F 1 "Conn_01x01" H 5805 5826 50  0000 L CNN
+F 2 "Adafruit:1mm_mount" H 5725 5875 50  0001 C CNN
+F 3 "~" H 5725 5875 50  0001 C CNN
+	1    5725 5875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01 J18
+U 1 1 5AB0B96E
+P 5725 6100
+F 0 "J18" H 5805 6142 50  0000 L CNN
+F 1 "Conn_01x01" H 5805 6051 50  0000 L CNN
+F 2 "Adafruit:1mm_mount" H 5725 6100 50  0001 C CNN
+F 3 "~" H 5725 6100 50  0001 C CNN
+	1    5725 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01 J19
+U 1 1 5AB0BA01
+P 5725 6275
+F 0 "J19" H 5805 6317 50  0000 L CNN
+F 1 "Conn_01x01" H 5805 6226 50  0000 L CNN
+F 2 "Adafruit:1mm_mount" H 5725 6275 50  0001 C CNN
+F 3 "~" H 5725 6275 50  0001 C CNN
+	1    5725 6275
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
